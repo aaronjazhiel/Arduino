@@ -1,3 +1,8 @@
+/*
+ * Nombre : Aaron Jazhiel Delgado Gonzalez
+ * Fecha:10-25-2017
+ * Descripción: Manejo de pines de entrada y salida
+ */
 void setup() {
 
   //pintMode Sirve para configurar un pin digital
@@ -11,11 +16,7 @@ void setup() {
 void loop() {
   
 
-  
-
-
  
-    
   }
 
 }
