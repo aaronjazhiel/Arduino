@@ -19,6 +19,7 @@ void loop() {
 // esta presionado obtenemos LOW(O).
 //LOW(0) = Bajo HIGH(1) = Alto
    if(digitalRead(2) == LOW){ 
-      Serial.println("Me presionaste");
+      Serial.println("Iniciando con el internet de las cosas !!!");
+      delay(1000);
    }
 }
