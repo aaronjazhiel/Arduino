@@ -9,6 +9,6 @@ void loop() {
   if(digitalRead(2) == 1){
     Serial.println("hay movimiento");
   }else{
-       Serial.println("no hay movimiento");
+       Serial.println("");
    }
 }
