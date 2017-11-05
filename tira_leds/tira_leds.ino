@@ -37,7 +37,7 @@ for(int i=0;i<=255;i++)
   delay(10);
 }
 
-delay(1000)
+delay(1000);
    
    
 }
