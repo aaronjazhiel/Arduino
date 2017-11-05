@@ -9,7 +9,6 @@ void setup() {
   //INPUT = Para entradas digitales en general
   //OUTPUT = Para salidas digitales en general
    pinMode(2,INPUT_PULLUP); // Se establece como entrada
-   pinMode(3,INPUT_PULLUP);
    Serial.begin(9600);// Inicializar la comunicacion serie
 }
 
