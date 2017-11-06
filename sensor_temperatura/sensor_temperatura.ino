@@ -4,9 +4,10 @@ void setup() {
 }
 
 void loop() {
-
+// recordemos ponerlo en un pin analogico
   milivolts = map(analogRead(0),0,1023,0,5000);
+// Se divide entre 10 por la especificacion del sensor
 
-   Serial.println(milivolts/);
+   Serial.println(milivolts/10);
 
 }
